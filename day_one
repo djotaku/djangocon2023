@@ -1,0 +1,50 @@
+Opening Remarks Day 1
+
+Lemurs because of Duke Lemur research
+
+logistics
+
+youtube.com/DjangoConUS
+
+----
+Keynote: Finding Purpose in Open Source through Community Building
+
+Got into open source via Django Girls
+
+Speaker was able to mentor someone by slowly giving them Pyladies tasking.
+
+Gives more examples of mentoring where she shows that she tailored her mentoring to the person's needs and strengths. Sometimes she holds their hand more and other times gives more independance. Also shows how folks don't have to be engineers to contribute to Django/open source.
+
+Speaker also talks about how each person brings unique and useful skills to the efforts.
+
+Challenges
+- need to find opportunities for junior devs
+- it can be key to pay open source contributors
+- finding resources for the Django Girls/PyLadies Ghana
+- travel and visas - the paperwork can make it hard for folks to contribute and attend conferences if they are coming from around the world.
+
+--------
+
+Supercharging your Django Dev Team: Introducing the Best Framework
+
+they wanted to do a quick advertisement for tomorrow's talk
+
+
+-------
+
+Online Bonus Talk - Automate Your City Data with Python
+
+We do not have a lot of data about how our city councils work. And it doesn't help that they are PDFs.
+
+Goal - get the civic data into a normalized, searchable, quueryable form
+
+Uses tool called Datasette
+
+want to make sure each step can be double-checked
+
+----------
+
+
+HTML-ivating your Django web app's experience with HTMX, AlpineJS, and streaming HTML.
+
+
