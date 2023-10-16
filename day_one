@@ -89,3 +89,74 @@ article to read: Django+Vue+Vite: REST not Required
 
 Lightning Talks
 
+Apr 8 2024 - Total Solar Eclipse
+--
+Innovating with AI to build Chat-like applications
+
+data has quirks - may not be text. How do you make it readable for an llm?
+
+--
+
+Black Python Devs
+
+important for python and django conerences to be in diverse areas. or if not, to make sure to have events
+
+--
+
+Durham Django Girls
+
+--
+
+django.social
+
+they are talkinga out meetup fatigue and some meetups having started since COVID
+
+--
+
+I'm A progrmamer I can solve this
+
+------------------
+Using database triggers to reliably track model history
+
+django-pghistory is used to do the stuff in this talk
+
+First problem - where are the changes stored?
+
+- JSON isn't a good choice because it's not easy to quarry it
+- a structured history model? It diesn't good because you end up with a bunch of bespoke history models
+
+Second problem - how to reliably detect changes?
+
+- Signals? Bulk changes don't fire signals. Also there are race conditions
+- you can override the save/create methods or use decorators, but you need to make sure this is done everywhere
+
+pghistory works as a decorator
+@pghistory.track() on your model classes
+
+It evolves to match your models during migrations
+
+The triggers live in the database, not django. So it doesn't have the signals issue mentioned above.
+
+you can add free-form metadata to the events
+
+this allows some different design patterns
+
+you can track logged-in users
+
+-----------------
+Beyond the Basics of Migrations
+
+explains how migrations work
+
+may need to tweak dependencies in the migration if two devs changed model before each other had done a migration
+
+efficiency matters on large tables (especially with CI/CD)
+
+--------------
+
+Missed, but wanted to watch:  Building Powerful APIs with Django, Django Rest Framework, and OpenAPI
+
+------------------
+
+
+
