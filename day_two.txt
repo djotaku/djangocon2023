@@ -1,0 +1,57 @@
+Opening Remarks
+
+information on the conf - where to find quiet room, etc.
+
+----
+
+Keynote: Django the Dinosaur: A Story About A Web Framework.
+
+-----
+
+Mixing reliability with Celery for delicious async tasks
+
+celerty is a distributed system.
+
+there can be task loss between the web process and broker.
+
+If there's a connection error, a task might never be queued
+
+Or the task commit can fail, too
+
+-----------
+
+Postgres Performance: From Slow to Pro
+
+RAM is a big issue
+
+you cna use pgtune to get recc settings
+
+not using statement timeouts can cause issues, too
+
+keep an eye on IOPS
+
+remember to do vacuums
+
+a single record result should returnin 1ms
+
+Nothing should take more than 5 seconds to return
+
+-----------
+
+Empathetic testing: Developing with compassion and humility.
+
+
+switched to ipmp and ppmp in numpy and their test stopped passing
+
+git blame to find out who wrote these tests
+
+They needed to upgrade Python
+
+When they fix the app the test breaks and vice versa
+
+Problem is Implementation Bias - it's testing the way it was built, not the way it works.
+
+Need to write better tests
+
+things change so you have to treat your code as discardable
+

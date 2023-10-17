@@ -158,5 +158,35 @@ Missed, but wanted to watch:  Building Powerful APIs with Django, Django Rest Fr
 
 ------------------
 
+Working with Neo4j with Django neomodel library
 
+Neo4J is a native graph database - it is better when you hvave relationsihps (than a relational database)
+
+for example - see slide "A Neo4j graph"
+
+good for queries about hierarchical data
+
+also good with path finding
+
+Cypher is a querying language that works well with this type of database
+
+Paradise Papers analyzed this way
+
+---------------
+
+Modern editing experience for your Django models with Wagtail
+
+Wagtail is a CMS written on top of Django
+
+A Page is both a model and a view
+
+Talk is essentially about adding Wagtail into your Django project and then using the Wagtail UI to edit your models. (Vs using Wagtail as a CMS - Wordpress replacement)
+
+Also allows for tracking Revisions to models
+
+-------------
+
+The evolution of a Django Website into a radio automation back-end
+
+project has evolved over the last decade
 
