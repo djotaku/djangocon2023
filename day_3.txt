@@ -153,3 +153,59 @@ celery beat requires state and there can only be ont beat at a time
 
 long-running tasks are harder to debug, but extremely short tasks involve non-trivial messaging overhead. So you need to find the sweet spot.
 
+-------------------
+
+One database table, one model, many behaviours: Proxy model
+
+Model Inheritance helps to reduce complexity
+
+Types of inheritance: abstract, mutl-table inheritance, and a third one speaker will get to later
+
+abstrcat - you have some fields you want to use in multiple places. Uses a meta class with abstract=True
+
+you can also creat proxy models.
+
+------------------------
+
+Back to the Future of Hypermedia in Django
+
+Hypermedia -> HTTP -> REST
+
+HATEOAS - Hypermedia as the Engine of Application State
+
+IN 2023.... NOT HATEOS - JSON as the Engine of Application State?!
+
+HTMX is a Hypermedia library
+    - allows for full AJAX set of actions
+
+Patterns
+
+django + htmx patterns (a readme on github)
+
+    - HTMX request headers
+    - rendering partial content
+
+    tools to help w/ these patterns
+
+    django-htmx - uses middleware to provide convenience tools for using htmx headers
+
+    template fragments - django-render-block helps with this
+
+    also django-template-partials package
+
+    another tool - hx-requests
+
+    forge packages
+
+--------------
+
+Django’s accessibility track record
+
+the talk based on someone reporting to Wagtail that the admin interface was hard to use because user was blind
+
+one thing you can do is turn off the colors (make the website grey scale) and see if this makes it harder to used
+
+---------------
+
+Panel Discussion: Who put me in charge? Moving beyond day-to-day coding in Django
+
